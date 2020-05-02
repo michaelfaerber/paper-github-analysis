@@ -8,7 +8,7 @@ We observe that the number of stars and forks, respectively, over all repositori
 ### More Information & Reference
 More information about our work can be found in the following paper:
 
-**Michael Färber: "Analyzing the GitHub Repositories of Research Papers". Proceedings of the 2020 ACM/IEEE Joint Conference on Digital Libraries (JCDL'20), Xi'an, China, 2020.**
+**[Michael Färber](https://sites.google.com/view/michaelfaerber/): "Analyzing the GitHub Repositories of Research Papers". Proceedings of the 2020 ACM/IEEE Joint Conference on Digital Libraries (JCDL'20), Xi'an, China, 2020.**
 
 Please use this paper for citing our work.
 
