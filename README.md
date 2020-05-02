@@ -1,4 +1,5 @@
 # Analyzing the GitHub Repositories of Research Papers
+### Methodology & Data Set
 In this repository, we provide the source code and the data base used for an analysis of all GitHub code repositories linked in scientific papers. The data base was retrieved by querying the Microsoft Academic Graph, which is licensed under [ODC-By](https://opendatacommons.org/licenses/by/1-0/index.html). We analyzed the repositories and their associated papers with respect to various dimensions.
 
 ### Results
