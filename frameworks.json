@@ -1,0 +1,177 @@
+[
+	{
+		"language": "Java",
+		"endung": [".java"],
+		"frameworks":[
+			
+			{
+			"name": "Apache SINGA",
+			"header": ["import org.apache.singa."]
+			},
+			{
+			"name": "Deeplearning4j",
+			"header": ["import org.deeplearning4j."]
+			},
+			{
+			"name": "Intel Data Analytics Acceleration Library",
+			"header": ["import com.intel.daal."]
+			},
+			{
+			"name": "TensorFlow",
+			"header": ["import org.tensorflow."]
+			}
+		
+		]
+	},
+	{
+		"language": "C++",
+		"endung": [".cpp"],
+		"frameworks":[
+			{
+			"name": "Apache SINGA",
+			"header": ["#include \"singa/", "#include <singa/"]
+			},
+			{
+			"name": "Caffe",
+			"header": ["#include \"caffe/", "#include <caffe/"]
+			},
+			{
+			"name": "Dlib",
+			"header": ["#include \"dlib/", "#include <dlib/"]
+			},
+			{
+			"name": "Intel Data Analytics Acceleration Library",
+			"header": ["#include \"daal.h\"", "#include <daal.h>"]
+			},
+			{
+			"name": "OpenNN",
+			"header": ["#include \"opennn/", "#include <opennn/"]
+			},
+			{
+			"name": "PlaidML",
+			"header": ["#include \"plmc/", "#include <plmc/"]
+			},
+			{
+			"name": "Torch",
+			"header": ["#include \"torch/", "#include <torch/"]
+			},
+			{
+			"name": "TensorFlow",
+			"header": ["#include \"tensorflow/", "#include <tensorflow/"]
+			}
+		]
+	},
+	{
+		"language": "C",
+		"endung": [".c"],
+		"frameworks":[
+			{
+			"name": "Intel Math Kernel Library",
+			"header": ["#include \"mkl.h\"", "#include <mkl.h>"]
+			},
+			{
+			"name": "TensorFlow",
+			"header": ["#include \"tensorflow/", "#include <tensorflow/"]
+			}
+		]
+	},
+	{
+		"language": "Python",
+		"endung": [".py"],
+		"frameworks":[
+			{
+			"name": "Apache SINGA",
+			"header": ["from singa", "import singa"]
+			},
+			{
+			"name": "BigDL",
+			"header": ["from bigdl", "import bigdl"]
+			},
+			{
+			"name": "Caffe",
+			"header": ["from caffe", "import caffe"]
+			},
+			{
+			"name": "Chainer",
+			"header": ["from chainer", "import chainer"]
+			},
+			{
+			"name": "Intel Data Analytics Acceleration Library",
+			"header": ["from daal", "import daal"]
+			},
+			{
+			"name": "Keras",
+			"header": ["from keras", "import keras"]
+			},
+			{
+			"name": "PlaidML",
+			"header": ["[\"KERAS_BACKEND\"] = \"plaidml.keras.backend\""]
+			},
+			{
+			"name": "Sklearn",
+			"header": ["from sklearn", "import sklearn"]
+			},
+			{
+			"name": "TensorFlow",
+			"header": ["from tensorflow", "import tensorflow"]
+			},
+			{
+			"name": "Torch",
+			"header": ["from torch", "import torch"]
+			},
+			{
+			"name": "Thenao",
+			"header": ["from theano", "import theano"]
+			}
+		]
+	},
+	{
+		"language": "R",
+		"endung": [".R"],
+		"frameworks":[
+			{
+			"name": "Keras",
+			"header": ["library(keras)", "require(keras)"]
+			},
+			{
+			"name": "TensorFlow",
+			"header": ["library(tensorflow)", "require(tensorflow)"]
+			}
+		]
+	},
+	{
+		"language": "Matlab",
+		"endung": [".mat", ".m"],
+		"frameworks":[
+			{
+			"name": "Caffe",
+			"header": ["importCaffe"]
+			},
+			{
+			"name": "Keras",
+			"header": ["importKeras"]
+			}
+		]
+	},
+	{
+		"language": "Scala",
+		"endung": [".scala"],
+		"frameworks":[
+			{
+			"name": "BigDL",
+			"header": ["import com.intel.analytics.bigdl"]
+			}
+		]
+	},
+	{
+		"language": "Lua",
+		"endung": [".lua"],
+		"frameworks":[
+			{
+			"name": "Torch",
+			"header": ["require 'torch'"]
+			}
+		]
+	}
+	
+]
